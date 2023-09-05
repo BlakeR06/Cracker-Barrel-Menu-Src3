@@ -1,0 +1,298 @@
+/* cracker barrel yellow = rgba(249,166,26,255) */
+/* cracker barrel brown = rgba(86,29,12,255) */
+/* cream color rgba(252,244,225,255)*/
+/* red color rgb(156,36,52)*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    scroll-behavior: smooth;
+}
+
+.background-image {
+    position: relative;
+    width: 100vw;
+    height: 100vh; 
+    overflow: hidden; 
+    position: fixed;
+    z-index: -1;
+}
+
+.background-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.logo {
+    top: 50%;
+    left: 35%; 
+    transform: translate(-50%, -50%);
+    position: fixed;
+}
+
+#lowerLogo{
+    top: 60%;
+}
+
+#lowerLogo2{
+    top: 55%;
+}
+
+.logo img {
+    width: 150%; 
+    height: auto;
+}
+
+.pageTitle{
+    color: rgba(249,166,26,255);
+    font-size: 7em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+#pageTitleSmallerFont{
+    font-size: 6em;
+}
+
+.pageTitleDown{
+    color: rgba(249,166,26,255);
+    font-size: 7em;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+    font-weight: 100;
+    margin-top: 25vh;
+}
+
+.foodBoxTextbox{
+    margin-top: 20vh;
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom: 3px solid rgba(86,29,12,255);
+    border-left: 3px solid rgba(86,29,12,255);
+    border-right: 3px solid rgba(86,29,12,255);
+    margin-left: -3px;
+    color: rgba(86,29,12,255);
+}
+
+.foodTypesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100vh;
+    margin-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.foodBox{
+    width: 45%;
+    height: 20vh;
+    background-color: white;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-top: 3px solid rgba(86,29,12,255);
+    border-left: 3px solid rgba(86,29,12,255);
+    border-right: 3px solid rgba(86,29,12,255);
+    margin-bottom: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#newForFall {
+    background-image: url(newForAll.jpg);
+}
+
+#familyMeals {
+    background-image: url(familyMeals.jpg);
+}
+
+#breakfastAllDay {
+    background-image: url(breakfastAllDay.jpg);
+}
+
+#chickenNTurkey {
+    background-image: url(chickenNTurkey.jpg);
+}
+
+#beefNPork {
+    background-image: url(beefNPork.jpg);
+}
+
+#seafood {
+    background-image: url(Seafood.jpg);
+}
+
+#burgersSaladsNMore {
+    background-image: url(burgersSaladsNMore.jpg);
+}
+
+#dailySpecials {
+    background-image: url(dailySpecials.jpg);
+}
+
+#individualSides {
+    background-image: url(individualSides.jpg);
+}
+
+#barrelBites {
+    background-image: url(barrelBites.jpg);
+}
+
+#drinks {
+    background-image: url(drinks.jpg);
+}
+
+#desserts {
+    background-image: url(desserts.jpg);
+}
+
+#kids {
+    background-image: url(kids.jpg);
+}
+
+.returnToMenuContainer {
+    width: 100%;
+    background-color: rgba(249, 166, 26, 1); 
+    height: auto;
+    position: fixed;
+    bottom: 0; 
+    left: 0; 
+    z-index: 999; 
+    padding: 10px;
+}
+
+.returnToMenuButton{
+    height: 6vh;
+    font-size: 2em;
+    border-radius: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 6px;
+    background-color: rgba(86,29,12,255);
+    color: rgba(252,244,225,255);
+}
+
+.viewAllButton{
+    height: 6vh;
+    font-size: 2em;
+    border-radius: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 6px;
+    background-color: rgb(156,36,52);
+    color: rgba(252,244,225,255);
+}
+
+/* ------------------------------------------ */
+
+.drinkBox{
+    width: 45%;
+    height: 30vh;
+    background-color: white;
+    margin: 75px 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-top: 3px solid rgba(86,29,12,255);
+    border-left: 3px solid rgba(86,29,12,255);
+    border-right: 3px solid rgba(86,29,12,255);
+    margin-bottom: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.DrinkBoxTextbox{
+    margin-top: 30vh;
+    background-color: white;
+    height: 50px;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-left: 3px solid rgba(86,29,12,255);
+    border-right: 3px solid rgba(86,29,12,255);
+    margin-left: -3px;
+    color: rgba(86,29,12,255);
+}
+
+.drinkPrice{
+    margin-left: -3px;
+    font-size: 2em;
+    font-weight: bold;
+    background-color: white;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(86,29,12,255);
+    border-left: 3px solid rgba(86,29,12,255);
+    border-right: 3px solid rgba(86,29,12,255);
+    width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#drinksContainer{
+    margin-top: 60vh;
+}
+
+#lowerPrice{
+    height: 110px !important;
+    margin-bottom: ;
+}
+
+.LowerDrinkBox{
+    width: 45%;
+    height: 30vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 75px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-top: 3px solid rgba(86,29,12,255);
+    border-left: 3px solid rgba(86,29,12,255);
+    border-right: 3px solid rgba(86,29,12,255);
+    margin-bottom: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.underLowDrinkBox{
+    width: 45%;
+    height: 30vh;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 135px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-top: 3px solid rgba(86,29,12,255);
+    border-left: 3px solid rgba(86,29,12,255);
+    border-right: 3px solid rgba(86,29,12,255);
+    margin-bottom: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}

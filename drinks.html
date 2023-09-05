@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Pacifico&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <div class="background-image">
+
+        <h1 id="pageTitleSmallerFont" class="pageTitleDown">Drinks</h1>
+
+        <img src="woodBackground.jpg" alt="Background Image">
+
+        <div class="logo" id="lowerLogo">
+            <img src="crackerBarrelLogo.png" alt="Overlay Image">
+
+        </div>
+
+    </div>
+
+    <div class="topbarContainer">
+        <nav class="topbar">
+          <a href="#">Alcoholic Beverages</a>
+          <a href="#sodas" class="topBarCenter2">Sodas</a>
+          <a href="#teas">Teas & Lemonade</a>
+          <a href="#coffee" class="topBarCenter2">Coffee</a>
+          <a href="#milk">Milk N' Juices</a>
+        </nav>
+      </div>
+
+    <div class="center">
+
+        <div class="SectionedMenuItemsContainer" id="menuItemsContainerLowerMargin">
+            
+            <h1 class="menuItemsSectionTitle">Beer, Wine, Mimosas & More</h1>
+
+            <div class="menuItemBox" id="beer"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Beer</h1>
+                <p class="menuItemDescription">Choose from our selection of Lagers, Pilsners, Craft Beer, and Jack Daniel's Country Cocktails.</p>
+                <button class="viewAllButton" onclick="beer()">View All</button>
+                <p class="menuItemDescription2">At participating locations only. 21 and older. Please drink responsibly.</p>
+            </div>
+
+            <div class="menuItemBox" id="wine"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Wine</h1>
+                <p class="menuItemDescription">See our full list of Sweet, White, and Red Wines.</p>
+                <button class="viewAllButton" onclick="wine()">View All</button>
+                <p class="menuItemDescription2">At participating locations only. 21 and older. Please drink responsibly.</p>
+            </div>
+
+            <div class="menuItemBox" id="mimosas"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Mimosas</h1>
+                <p class="menuItemDescription">A classic morning cocktail. Enjoy crisp sparkling wine paired with orange, strawberry, or peach flavors.</p>
+                <button class="viewAllButton" onclick="mimosas()">View All</button>
+                <p class="menuItemDescription2" id="sodas">At participating locations only. 21 and older. Please drink responsibly.</p>
+            </div>
+
+        </div>
+
+        <div class="SectionedMenuItemsContainer" id="">
+            
+            <h1 class="menuItemsSectionTitle">Sodas</h1>
+
+            <div class="menuItemBox" id="bottledRootBeer"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Bottled Root Beer</h1>
+                <p class="menuItemDescription">Old-fashioned, secret-recipe Root Beer.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="dietCoke"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Diet Coke</h1>
+                <p class="menuItemDescription">32 oz Diet Coke.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="cocacolaZeroSugar"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Coca-Cola Zero Sugar</h1>
+                <p class="menuItemDescription">32 oz Coca-Cola Zero Sugar.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="cocacolaZeroSugar"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Cherry Coke</h1>
+                <p class="menuItemDescription">32 oz Cherry Coke.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="cocacolaZeroSugar"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Coca-Cola</h1>
+                <p class="menuItemDescription">32 oz Coca-Cola.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="cocacolaZeroSugar"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Dr Pepper</h1>
+                <p class="menuItemDescription">32 oz. Dr Pepper.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="sprite"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Sprite</h1>
+                <p class="menuItemDescription">32 oz Sprite.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="melloYello"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Mello Yello</h1>
+                <p class="menuItemDescription">32 oz Mello Yello.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="melloYello"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Ginger Ale</h1>
+                <p class="menuItemDescription">32 oz Ginger Ale.</p>
+                <p class="menuItemPrice" id="teas">$3.29</p>
+            </div>
+
+        </div>
+
+        <div class="SectionedMenuItemsContainer" id="">
+            
+            <h1 class="menuItemsSectionTitle">Teas And Lemonade</h1>
+
+            <div class="menuItemBox" id="strawberryLemonade"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Strawberry Lemonade</h1>
+                <p class="menuItemDescription">Our classic lemonade with sweet strawberry puree. Available for a limited time.</p>
+                <p class="menuItemPrice">$3.39</p>
+            </div>
+
+            <div class="menuItemBox" id="southernHalfNHalf"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Southern Half N' Half</h1>
+                <p class="menuItemDescription">A blend of our freshly brewed iced tea and signature lemonade.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="peachTea"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Peach Tea</h1>
+                <p class="menuItemDescription">We added peach puree to a blend of our signature tea to make a Southern drink that's as delicious as it is</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="freshlyBrewedSweetIcedTea"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Freshly Brewed Sweet Iced Tea</h1>
+                <p class="menuItemDescription">32oz Freshley Brewed Sweet Iced Tea.</p>
+                <p class="menuItemPrice">$3.19</p>
+            </div>
+
+            <div class="menuItemBox" id="freshlyBrewedSweetIcedTea"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Freshly Brewed Unsweetened Iced Tea</h1>
+                <p class="menuItemDescription">32 oz Freshley Brewed Unsweetened Iced Tea.</p>
+                <p class="menuItemPrice">$3.19</p>
+            </div>
+
+            <div class="menuItemBox" id="oldFashionedLemonade"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Old Fashioned Lemonade</h1>
+                <p class="menuItemDescription">32 oz Old-Fashioned Lemonade.</p>
+                <p class="menuItemPrice">$3.19</p>
+            </div>
+
+            <div class="menuItemBox" id="strawberryLemonadeHalfGallon"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Strawberry Lemonade (Half Gallon)</h1>
+                <p class="menuItemDescription">Our classic lemonade with sweet strawberry puree. Available for a limited time.</p>
+                <p class="menuItemPrice">$7.99</p>
+            </div>
+
+            <div class="menuItemBox" id="southernHalfNHalfHaldGallon"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Southern Half N' Half (Half Gallon)</h1>
+                <p class="menuItemDescription">A blend of our freshly brewed iced tea and signature lemonade.</p>
+                <p class="menuItemPrice">$5.99</p>
+            </div>
+
+            <div class="menuItemBox" id="peachTeaHalfGallon"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Peach Tea (Half Gallon)</h1>
+                <p class="menuItemDescription">Peach puree added to a blend of our signature tea to make a Southern drink that’s delicious and refreshing.</p>
+                <p class="menuItemPrice">$7.99</p>
+            </div>
+
+            <div class="menuItemBox" id="freshlyBrewedSweetIcedTeaHalfGallon"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Freshly Brewed Sweet Iced Tea (Half Gallon)</h1>
+                <p class="menuItemDescription">Half Gallon of Freshly Brewed Sweet Iced Tea.</p>
+                <p class="menuItemPrice">$4.99</p>
+            </div>
+
+            <div class="menuItemBox" id="freshlyBrewedSweetIcedTeaHalfGallon"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Freshly Brewed Unsweetened Iced Tea (Half Gallon)</h1>
+                <p class="menuItemDescription">Half Gallon of Freshly Brewed Unsweetened Iced Tea.</p>
+                <p class="menuItemPrice">$4.99</p>
+            </div>
+
+            <div class="menuItemBox" id="lemonadeHalfGallon"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Lemonade (Half Gallon)</h1>
+                <p class="menuItemDescription">Half Gallon of Lemonade.</p>
+                <p class="menuItemPrice" id="coffee">$5.99</p>
+            </div>
+
+        </div>
+
+        <div class="SectionedMenuItemsContainer" id="">
+            
+            <h1 class="menuItemsSectionTitle">Coffee</h1>
+
+            <div class="menuItemBox" id="frenchToastLatte"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">French Toast Latte</h1>
+                <p class="menuItemDescription">Cinnamon flavor, espresso and steamed milk, topped with whipped cream, cinnamon crumbles, and syrup, served hot. Available for a limited time.</p>
+                <p class="menuItemPrice">$3.99</p>
+            </div>
+
+            <div class="menuItemBox" id="icedFrenchToastLatte"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Iced French Toast Latte</h1>
+                <p class="menuItemDescription">Cinnamon flavor, espresso and steamed milk, topped with whipped cream, cinnamon crumbles, and syrup, served over ice. Available for a limited time.</p>
+                <p class="menuItemPrice">$3.99</p>
+            </div>
+
+            <div class="menuItemBox" id="caramelLatte"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Caramel Latte</h1>
+                <p class="menuItemDescription">Traditional Espresso Latte served hot with Caramel flavoring.</p>
+                <p class="menuItemPrice">$3.99</p>
+            </div>
+
+            <div class="menuItemBox" id="caramelLatte"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Iced Caramel Latte</h1>
+                <p class="menuItemDescription">Traditional Espresso Latte served over ice with Caramel flavoring.</p>
+                <p class="menuItemPrice">$3.99</p>
+            </div>
+
+            <div class="menuItemBox" id="latte"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Latte</h1>
+                <p class="menuItemDescription">Traditional Espresso Latte served hot.</p>
+                <p class="menuItemPrice">$3.99</p>
+            </div>
+
+            <div class="menuItemBox" id="latte"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Iced Latte</h1>
+                <p class="menuItemDescription">Traditional Espresso Latte served over ice.</p>
+                <p class="menuItemPrice">$3.99</p>
+            </div>
+
+            <div class="menuItemBox" id="mocha"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Mocha</h1>
+                <p class="menuItemDescription">Traditional Espresso Mocha, made with chocolate and served hot.</p>
+                <p class="menuItemPrice">$3.99</p>
+            </div>
+
+            <div class="menuItemBox" id="mocha"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Iced Mocha</h1>
+                <p class="menuItemDescription">Traditional Espresso Mocha, made with chocolate and served over ice.</p>
+                <p class="menuItemPrice">$3.99</p>
+            </div>
+
+            <div class="menuItemBox" id="vanillaLatte"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Vanilla Latte</h1>
+                <p class="menuItemDescription">Traditional Espresso Latte served hot with Vanilla flavoring.</p>
+                <p class="menuItemPrice">$3.99</p>
+            </div>
+
+            <div class="menuItemBox" id="vanillaLatte"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Iced Vanilla Latte</h1>
+                <p class="menuItemDescription">Traditional Espresso Latte served over ice with Vanilla flavoring.</p>
+                <p class="menuItemPrice">$3.99</p>
+            </div>
+
+            <div class="menuItemBox" id="freshlyBrewedPremiumCoffee"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Freshly Brewed Premium Coffee</h1>
+                <p class="menuItemDescription">Made with 100% Premium Quality Arabica Coffee Beans.</p>
+                <p class="menuItemPrice">$2.99</p>
+            </div>
+
+            <div class="menuItemBox" id="freshlyBrewedPremiumCoffee"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Freshly Brewed Premium Decaf Coffee</h1>
+                <p class="menuItemDescription">Made with 100% Premium Quality Arabica Coffee Beans.</p>
+                <p class="menuItemPrice">$2.99</p>
+            </div>
+
+            <div class="menuItemBox" id="hotChocolate"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Hot Chocolate</h1>
+                <p class="menuItemDescription">Our delicious hot chocolate is a timeless classic, topped with chocolate whipped cream.</p>
+                <p class="menuItemPrice" id="milk">$3.69</p>
+            </div>
+
+        </div>
+
+        <div class="SectionedMenuItemsContainer" id="lastSectionedMenuItemsContainer">
+            
+            <h1 class="menuItemsSectionTitle">Milk N' Juices</h1>
+
+            <div class="menuItemBox" id="reducedFatMilk"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Reduced-Fat Milk</h1>
+                <p class="menuItemDescription">16 oz Reduced-Fat Milk.</p>
+                <p class="menuItemPrice">$2.99</p>
+            </div>
+
+            <div class="menuItemBox" id="reducedFatMilk"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Skim Milk</h1>
+                <p class="menuItemDescription">16 oz Skim Milk.</p>
+                <p class="menuItemPrice">$2.99</p>
+            </div>
+
+            <div class="menuItemBox" id="reducedFatMilk"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Whole Milk</h1>
+                <p class="menuItemDescription">16 oz Whole Milk.</p>
+                <p class="menuItemPrice">$2.99</p>
+            </div>
+
+            <div class="menuItemBox" id="chocolateMilk"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Chocolate Milk</h1>
+                <p class="menuItemDescription">16 oz Chocolate Milk.</p>
+                <p class="menuItemPrice">$2.99</p>
+            </div>
+
+            <div class="menuItemBox" id="appleJuiceLarge"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Apple Juice (Large)</h1>
+                <p class="menuItemDescription">16 oz Apple Juice.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+
+            <div class="menuItemBox" id="orangeJuiceLarge"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">Orange Juice (Large)</h1>
+                <p class="menuItemDescription">16 oz Orange Juice.</p>
+                <p class="menuItemPrice">$3.29</p>
+            </div>
+            
+            <div class="menuItemBox" id="PureFloridaOrangeJuiceHalfGallon"></div>
+            <div class="menuItemTextbox">
+                <h1 class="menuItemHeader">100% Pure Florida Orange Juice (Half Gallon)</h1>
+                <p class="menuItemDescription">Half gallon of 100% Pure Florida Orange Juice.</p>
+                <p class="menuItemPrice">$7.99</p>
+            </div>
+
+        </div>
+
+    </div>    
+
+    <script src="main.js"></script>
+
+    <div class="returnToMenuContainer">
+        <button class="returnToMenuButton" onclick="returnToMenu()">Return to Menu</button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,838 @@
+
+
+#pancakeTacos{
+    background-image: url('pancakeTacos.webp');
+}
+
+#biscuitBenny{
+    background-image: url('biscuitBenny.webp');
+}
+
+#steakNEggHanshbrownCasserole{
+    background-image: url('steakNEggHanshbrownCasserole.webp');
+}
+
+#broccoliCheeseCasserole{
+    background-image: url('broccoliCheeseCasserole.webp');
+}
+
+#miniStrawBerryCheesecake{
+    background-image: url('miniStrawBerryCheesecake.webp');
+}
+
+#strawberryLemonade{
+    background-image: url('strawberryLemonade.webp');
+}
+
+#frenchToastLatte{
+    background-image: url('frenchToastLatte.webp');
+}
+
+#icedFrenchToastLatte{
+    background-image: url('icedFrenchToastLatte.webp');
+}
+
+#sirloinSteakTipsNTendersFamilyMealBasket{
+    background-image: url('sirloinSteakTipsNTendersFamilyMealBasket.webp');
+}
+
+#miniStrawBerryCheesecakes{
+    background-image: url('miniStrawBerryCheesecakes.webp');
+}
+
+#strawberryLemonadeHalfGallon{
+    background-image: url('strawberryLemonade(HalfGallon).webp');
+}
+
+#meatloafNTendersFamilyMealBasket{
+    background-image: url('meatloafNTendersFamilyMealBasket.png');
+}
+
+#homeStyleChickenNFrenchToastFamilyMealBasket{
+    background-image: url('homeStyleChickenNFrenchToastFamilyMealBasket.png');
+}
+
+#allDayPancakeBreakfastFamilyMealBasket{
+    background-image: url('allDayPancakeBreakfastFamilyMealBasket.png');
+}
+
+#scratchMadeMeatloafFamilyMealBasket{
+    background-image: url('scratchMadeMeatloafFamilyMealBasket.png');
+}
+
+#signatureChickenNDumplinsFamilyMealBasket{
+    background-image: url('signatureChickenNDumplinsFamilyMealBasket.png');
+}
+
+#southernFriedChickenFamilyMealBasket{
+    background-image: url('southernFriedChickenFamilyMealBasket.png');
+}
+
+#sundayHomeStyleChickenFamilyMealBasket{
+    background-image: url('sundayHomeStyleChickenFamilyMealBasket.png');
+}
+
+#grilledChickenTenderloinsFamilyMealBasket{
+    background-image: url('grilledChickenTenderloinsFamilyMealBasket.png');
+}
+
+#buildYourOwnHomestyleBreakfast{
+    background-image: url('buildYourOwnHomestyleBreakfast.png');
+}
+
+#baconNEggHashBrownCasserole{
+    background-image: url('baconNEggHashBrownCasserole.png');
+}
+
+#oldTimersBreakfast{
+    background-image: url('oldTimersBreakfast.png');
+}
+
+#theCrackerBarrelsCountryBoyBreakfast{
+    background-image: url('theCrackerBarrelsCountryBoyBreakfast.png');
+}
+
+#grandpasCountryFriedBreakfast{
+    background-image: url('grandpasCountryFriedBreakfast.png');
+}
+
+#stuffedCheesecakePancakeBreakfast{
+    background-image: url('stuffedCheesecakePancakeBreakfast.png');
+}
+
+#homeStyleChickenNFrenchToast{
+    background-image: url('homeStyleChickenNFrenchToast.png');
+}
+
+#grandmasSamplerPancakeBreakfast{
+    background-image: url('grandmasSamplerPancakeBreakfast.png');
+}
+
+#grandmasSamplerFrenchToastBreakfast{
+    background-image: url('grandmasSamplerFrenchToastBreakfast.png');
+}
+
+#mommasPancakeBreakfast{
+    background-image: url('mommasPancakeBreakfast.png');
+}
+
+#mommasFrenchToastBreakfast{
+    background-image: url('mommasFrenchToastBreakfast.png');
+}
+
+#loadedHashbrownCasseroleTots{
+    background-image: url('loadedHashbrownCasseroleTots.png');
+}
+
+#biscuitBeignets{
+    background-image: url('biscuitBeignets.png');
+}
+
+#eggSandwich{
+    background-image: url('eggSandwich.png');
+}
+
+#biscuitBreakfast{
+    background-image: url('biscuitBreakfast.png');
+}
+
+#biscuitsNGravyWithBaconOrSausage{
+    background-image: url('biscuitsNGravyWithBaconOrSausage.png');
+}
+
+#countyHam{
+    background-image: url('countyHam.png');
+}
+
+#impossibleSausage{
+    background-image: url('impossibleSausage.png');
+}
+
+#smokedSausagepatties{
+    background-image: url('smokedSausagepatties.png');
+}
+
+#spicyChickenSausage{
+    background-image: url('spicyChickenSausage.png');
+}
+
+#thickSlicedBacon{
+    background-image: url('thickSlicedBacon.png');
+}
+
+#coarseGroundGrits{
+    background-image: url('coarseGroundGrits.png');
+}
+
+#friedApples{
+    background-image: url('friedApples.png');
+}
+
+#hashbrownCasserole{
+    background-image: url('hashbrownCasserole.png');
+}
+
+#sawmillGravy{
+    background-image: url('sawmillGravy.png');
+}
+
+#twoButtermilkPancakes{
+    background-image: url('twoButtermilkPancakes.png');
+}
+
+#loadedHashbrownCasserole{
+    background-image: url('loadedHashbrownCasserole.png');
+}
+
+#tipsTendersNShrimpPlatter{
+    background-image: url('tipsTendersNShrimpPlatter.png');
+}
+
+#buffaloButtermilkRanchMacNCheese{
+    background-image: url('buffaloButtermilkRanchMacNCheese.png');
+}
+
+#classicsSampler{
+    background-image: url('classicsSampler.png');
+}
+
+#smokeySouthernGrilledChicken{
+    background-image: url('smokeySouthernGrilledChicken.png');
+}
+
+#skilletSirloinSteakSampler{
+    background-image: url('skilletSirloinSteakSampler.png');
+}
+
+#southernFriedChicken{
+    background-image: url('southernFriedChicken.png');
+}
+
+#chickenNDumplins{
+    background-image: url('chickenNDumplins.png');
+}
+
+#handBreadedFriedChickenTenders{
+    background-image: url('handBreadedFriedChickenTenders.png');
+}
+
+#weekdayLunchChickennDumplins{
+    background-image: url('weekdayLunchChickennDumplins.png');
+}
+
+#mapleBaconGrilledChicken{
+    background-image: url('mapleBaconGrilledChicken.png');
+}
+
+#chickenPotPie{
+    background-image: url('chickenPotPie.png');
+}
+
+#chickenFriedChicken{
+    background-image: url('chickenFriedChicken.png');
+}
+
+#grilledChickTenders{
+    background-image: url('grilledChickTenders.png');
+}
+
+#wednesdayLunchBroccoliCheddarChicken{
+    background-image: url('wednesdayLunchBroccoliCheddarChicken.png');
+}
+
+#thursdayLunchTurkeyNDressing{
+    background-image: url('thursdayLunchTurkeyNDressing.png');
+}
+
+#thursdayTurkeyNDressing{
+    background-image: url('thursdayTurkeyNDressing.png');
+}
+
+#sundayHomestyleChicken{
+    background-image: url('sundayHomestyleChicken.png');
+}
+
+#countryFriedSteak{
+    background-image: url('countryFriedSteak.png');
+}
+
+#roastBeef{
+    background-image: url('roastBeef.png');
+}
+
+#meatloaf{
+    background-image: url('meatloaf.png');
+}
+
+#grilledSirloinSteak{
+    background-image: url('grilledSirloinSteak.png');
+}
+
+#hamburgerSteak{
+    background-image: url('hamburgerSteak.png');
+}
+
+#theBarrelCheeseburger{
+    background-image: url('theBarrelCheeseburger.png');
+}
+
+#sugarCuredHam{
+    background-image: url('sugarCuredHam.png');
+}
+
+#countryHam{
+    background-image: url('countryHam.png');
+}
+
+#saturdayCountryFriedPorkChops{
+    background-image: url('saturdayCountryFriedPorkChops.png');
+}
+
+#countryCoastalSampler{
+    background-image: url('countryCoastalSampler.png');
+}
+
+#fridayFishFry{
+    background-image: url('fridayFishFry.png');
+}
+
+#USFarmRaisedGrilledCatfish2Pieces{
+    background-image: url('USFarmRaisedGrilledCatfish2Pieces.png');
+}
+
+#USFarmRaisedGrilledCatfish1Piece{
+    background-image: url('USFarmRaisedGrilledCatfish1Piece.png');
+}
+
+#USFarmRaisedFriedCatfish2Pieces{
+    background-image: url('USFarmRaisedFriedCatfish2Pieces.png');
+}
+
+#USFarmRaisedFriedCatfish1Piece{
+    background-image: url('USFarmRaisedFriedCatfish1Piece.png');
+}
+
+#countryFriedShrimp{
+    background-image: url('countryFriedShrimp.png');
+}
+
+#lemonPepperGrilledRainbowTrout{
+    background-image: url('lemonPepperGrilledRainbowTrout.png');
+}
+
+#homestyleChickenBlt{
+    background-image: url('homestyleChickenBlt.png');
+}
+
+#houseSalad{
+    background-image: url('houseSalad.png');
+}
+
+#weekdayLunchPick2CountryCombos{
+    background-image: url('weekdayLunchPick2CountryCombos.png');
+}
+
+#homestyleChickenSalad{
+    background-image: url('homestyleChickenSalad.png');
+}
+
+#homestyleGrilledChickenSalad{
+    background-image: url('homestyleGrilledChickenSalad.png');
+}
+
+#vegetableSoubBowl{
+    background-image: url('vegetableSoubBowl.png');
+}
+
+#countryVegetablePlate{
+    background-image: url('countryVegetablePlate.png');
+}
+
+#weekdayLunchMeatloaf{
+    background-image: url('weekdayLunchMeatloaf.png');
+}
+
+#wednesdayBroccoliCheddarChicken{
+    background-image: url('wednesdayBroccoliCheddarChicken.png');
+}
+
+/* ----------------------------------------------------------------- */
+
+#baconMacNCheese{
+    background-image: url('baconMacNCheese.png');
+}
+
+#freshFruit{
+    background-image: url('freshFruit.png');
+}
+
+#hashbrownCasseroleTots{
+    background-image: url('hashbrownCasseroleTots.png');
+}
+
+#loadedBakedPotato{
+    background-image: url('loadedBakedPotato.png');
+}
+
+#loadedBakedSweetPotato{
+    background-image: url('loadedBakedSweetPotato.png');
+}
+
+#loadedMashedPotatoes{
+    background-image: url('loadedMashedPotatoes.png');
+}
+
+#vegetableSoupCup{
+    background-image: url('vegetableSoupCup.png');
+}
+
+#beansNGreens{
+    background-image: url('beansNGreens.png');
+}
+
+#bowlOfPintoBeans{
+    background-image: url('bowlOfPintoBeans.png');
+}
+
+#bowlOfTurnipGreens{
+    background-image: url('bowlOfTurnipGreens.png');
+}
+
+#countryVegetablePlate{
+    background-image: url('countryVegetablePlate.png');
+}
+
+#broccoli{
+    background-image: url('broccoli.png');
+}
+
+#carrots{
+    background-image: url('carrots.png');
+}
+
+#coleSlaw{
+    background-image: url('coleSlaw.png');
+}
+
+#dumplins{
+    background-image: url('dumplins.png');
+}
+
+#greenBeans{
+    background-image: url('greenBeans.png');
+}
+
+#macaroniNCheese{
+    background-image: url('macaroniNCheese.png');
+}
+
+#mashedPotatoes{
+    background-image: url('mashedPotatoes.png');
+}
+
+#mashedPotatoesWithBrownGravy{
+    background-image: url('mashedPotatoesWithBrownGravy.png');
+}
+
+#mashedPotatoesWithSawmillGravy{
+    background-image: url('mashedPotatoesWithSawmillGravy.png');
+}
+
+#pintoBeans{
+    background-image: url('pintoBeans.png');
+}
+
+#steakFries{
+    background-image: url('steakFries.png');
+}
+
+#turnipGreens{
+    background-image: url('turnipGreens.png');
+}
+
+#buttermilkBiscuits4{
+    background-image: url('buttermilkBiscuits4.png');
+}
+
+#cornbreadMuffins4{
+    background-image: url('cornbreadMuffins4.png');
+}
+
+#friedOkra{
+    background-image: url('friedOkra.png');
+}
+
+#corn{
+    background-image: url('corn.png');
+}
+
+#barrelBiteDuo{
+    background-image: url('barrelBiteDuo.png');
+}
+
+#loadedSteakFries{
+    background-image: url('loadedSteakFries.png');
+}
+
+#countryFriedPickles{
+    background-image: url('countryFriedPickles.png');
+}
+
+#whiteCheddarCheeseBites{
+    background-image: url('whiteCheddarCheeseBites.png');
+}
+
+#beer{
+    background-image: url('beer.png');
+}
+
+#wine{
+    background-image: url('wine.png');
+}
+
+#mimosas{
+    background-image: url('mimosas.png');
+}
+
+#bottledRootBeer{
+    background-image: url('bottledRootBeer.png');
+}
+
+#dietCoke{
+    background-image: url('dietCoke.png');
+}
+
+#cocacolaZeroSugar{
+    background-image: url('cocacolaZeroSugar.png');
+}
+
+#sprite{
+    background-image: url('sprite.png');
+}
+
+#melloYello{
+    background-image: url('melloYello.png');
+}
+
+#southernHalfNHalf{
+    background-image: url('southernHalfNHalf.png');
+}
+
+#peachTea{
+    background-image: url('peachTea.png');
+}
+
+#oldFashionedLemonade{
+    background-image: url('oldFashionedLemonade.png');
+}
+
+#southernHalfNHalfHaldGallon{
+    background-image: url('southernHalfNHalfHaldGallon.png');
+}
+
+#peachTeaHalfGallon{
+    background-image: url('peachTeaHalfGallon.png');
+}
+
+#caramelLatte{
+    background-image: url('caramelLatte.png');
+}
+
+#latte{
+    background-image: url('latte.png');
+}
+
+#mocha{
+    background-image: url('mocha.png');
+}
+
+#vanillaLatte{
+    background-image: url('vanillaLatte.png');
+}
+
+#hotChocolate{
+    background-image: url('hotChocolate.png');
+}
+
+#reducedFatMilk{
+    background-image: url('reducedFatMilk.png');
+}
+
+#chocolateMilk{
+    background-image: url('chocolateMilk.png');
+}
+
+#appleJuiceLarge{
+    background-image: url('appleJuiceLarge.png');
+}
+
+#orangeJuiceLarge{
+    background-image: url('orangeJuiceLarge.png');
+}
+
+#PureFloridaOrangeJuiceHalfGallon{
+    background-image: url('PureFloridaOrangeJuiceHalfGallon.png');
+}
+
+#freshlyBrewedSweetIcedTea{
+    background-image: url('freshlyBrewedSweetIcedTea.png');
+}
+
+#freshlyBrewedSweetIcedTeaHalfGallon{
+    background-image: url('freshlyBrewedSweetIcedTeaHalfGallon.png');
+}
+
+#freshlyBrewedSweetIcedTeaHalfGallon{
+    background-image: url('freshlyBrewedSweetIcedTeaHalfGallon.png');
+}
+
+#lemonadeHalfGallon{
+    background-image: url('lemonadeHalfGallon.png');
+}
+
+#lemonadeHalfGallon{
+    background-image: url('lemonadeHalfGallon.png');
+}
+
+#freshlyBrewedPremiumCoffee{
+    background-image: url('freshlyBrewedPremiumCoffee.png');
+}
+
+#coronaExtra{
+    background-image: url('coronaExtra.jpg');
+}
+
+#budweiser{
+    background-image: url('budweiser.jpg');
+}
+
+#budLight{
+    background-image: url('budLight.jpg');
+}
+
+#millerLite{
+    background-image: url('millerLite.jpg');
+}
+
+#michelobUltra{
+    background-image: url('michelobUltra.jpg');
+}
+
+#blueMoon{
+    background-image: url('blueMoon.jpg');
+}
+
+#budweiser6pack{
+    background-image: url('budweiser6pack.jpg');
+}
+
+#budLight6pack{
+    background-image: url('budLight6pack.jpg');
+}
+
+#millerLite6Pack{
+    background-image: url('millerLite6Pack.jpg');
+}
+
+#michelobUltra6pack{
+    background-image: url('michelobUltra6pack.jpg');
+}
+
+#blueMoon6pack{
+    background-image: url('blueMoon6pack.jpg');
+}
+
+#coronaExtra6pack{
+    background-image: url('coronaExtra6pack.jpg');
+}
+
+#sutterHomeChardonnay{
+    background-image: url('sutterHomeChardonnay.jpg');
+}
+
+#roscatoMoscato{
+    background-image: url('roscatoMoscato.jpg');
+}
+
+#roscatoSweetRed{
+    background-image: url('roscatoSweetRed.jpg');
+}
+
+#stutterHomeChardonnay4Pack{
+    background-image: url('stutterHomeChardonnay4Pack.jpg');
+}
+
+#orangeMimosa{
+    background-image: url('orangeMimosa.jpg');
+}
+
+#strawberryMimosa{
+    background-image: url('strawberryMimosa.jpg');
+}
+
+#peachMimosa{
+    background-image: url('peachMimosa.jpg');
+}
+
+#{
+    background-image: url('.jpg');
+}
+
+
+/*-------------------------------------------------------------------*/
+
+.center{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuTitle{
+    font-size: 6em;
+    font-family: 'Pacifico', cursive;
+    color: rgba(249,166,26,255);
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.menuItemsContainer{
+    background-color: rgba(252, 244, 225, 0.8);
+    border: 5px solid rgba(86, 29, 12, 1);
+    border-radius: 30px;
+    width: 80%;
+    margin-top: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+.SectionedMenuItemsContainer{
+    background-color: rgba(252, 244, 225, 0.8);
+    border: 5px solid rgba(86, 29, 12, 1);
+    border-radius: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    margin-bottom: 70px;
+}
+
+#lastSectionedMenuItemsContainer{
+    margin-bottom: 200px;
+}
+
+#menuItemsContainerLowerMargin{
+    margin-top: 50vh;
+}
+
+#chickenNTurkeyCustomTopMarginAndBottomMargin{
+    margin-bottom: 100px;
+    margin-top: 50vh;
+}
+
+.menuItemsSectionTitle{
+    font-size: 6em;
+    font-weight: bold;
+    padding: 0px 3px 0px 3px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.menuItemBox{
+    width: 80%;
+    height: 35vh;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border-top: 3px solid rgba(86,29,12,255);
+    border-left: 3px solid rgba(86,29,12,255);
+    border-right: 3px solid rgba(86,29,12,255);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.menuItemTextbox{
+    background-color: white;
+    width: 80%;
+    margin-bottom: 50px;
+    border: 3px solid rgba(86, 29, 12, 1);
+    border-top: none;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.menuItemHeader{
+    color: rgba(86, 29, 12, 1);
+    font-size: 3.5em;
+    padding: 0px 15px 0px 15px;
+}
+
+.menuItemDescription{
+    font-size: 2.3em;
+    padding: 0px 15px 0px 15px;
+}
+
+.menuItemPrice{
+    font-size: 2em;
+    font-weight: bold;
+    padding: 0px 15px 0px 15px;
+}
+
+.menuItemDescription2{
+    font-size: 2em;
+    padding: 0px 15px 0px 15px;
+    color: rgb(125, 125, 252);
+}
+
+/* ------------------------------------------------------------ */
+
+.topbarContainer {
+    background-color:rgba(86, 29, 12, 1);
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+  
+.topbar {
+    display: flex;
+    width: 100%;
+}
+  
+.topbar a {
+    text-decoration: none;
+    color: rgba(249,166,26,255);
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    font-size: 5vw;   /* may need to adjust based on items in list */
+    transition: color 0.3s;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.topBarCenter{
+    padding-top: 80px !important;
+}
+
+.topBarCenter2{
+    padding-top: 50px !important;
+}
+
+.bottomMargin{
+    width: 100%;
+    height: 150px;
+}
